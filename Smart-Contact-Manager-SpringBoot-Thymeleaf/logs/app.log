@@ -1,0 +1,372 @@
+2024-08-04T14:21:35.795+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 12396 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:21:35.796+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:21:36.216+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:21:36.242+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:21:36.423+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:21:36.427+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:21:36.427+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:21:36.591+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:21:36.593+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 793 ms
+2024-08-04T14:21:36.712+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:21:36.720+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:21:36.742+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:21:36.743+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-08-04T14:21:36.764+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@688dbe2
+2024-08-04T14:21:36.765+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-08-04T14:21:36.766+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:21:36.767+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:21:36.933+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:21:36.979+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:21:37.078+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:21:37.091+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:21:37.092+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:21:37.292+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-04T14:21:37.315+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8282 (http) with context path '/'
+2024-08-04T14:21:37.321+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 1.609 seconds (process running for 1030.454)
+2024-08-04T14:21:37.322+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-04T14:36:46.344+05:00  INFO 12396 --- [smartcontactmanager] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-04T14:36:46.384+05:00  INFO 12396 --- [smartcontactmanager] [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:36:46.385+05:00  INFO 12396 --- [smartcontactmanager] [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-08-04T14:36:46.409+05:00  INFO 12396 --- [smartcontactmanager] [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-08-04T14:36:46.755+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 12396 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:36:46.756+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:36:47.519+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:36:47.539+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:36:47.818+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:36:47.821+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:36:47.822+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:36:47.856+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:36:47.857+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2024-08-04T14:36:48.059+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:36:48.070+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:36:48.117+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:36:48.120+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-08-04T14:36:48.143+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e75060f
+2024-08-04T14:36:48.144+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-08-04T14:36:48.146+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:36:48.146+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:36:48.260+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:36:48.306+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:36:48.501+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:36:48.521+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:36:48.522+05:00  WARN 12396 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:36:48.914+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 14624 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:36:48.918+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:36:49.021+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-04T14:36:49.021+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-04T14:36:49.109+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-04T14:36:49.159+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8282 (http) with context path '/'
+2024-08-04T14:36:49.168+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 2.603 seconds (process running for 1942.301)
+2024-08-04T14:36:49.174+05:00  INFO 12396 --- [smartcontactmanager] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-04T14:36:49.832+05:00  INFO 12396 --- [smartcontactmanager] [http-nio-8282-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-04T14:36:49.832+05:00  INFO 12396 --- [smartcontactmanager] [http-nio-8282-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-04T14:36:49.835+05:00  INFO 12396 --- [smartcontactmanager] [http-nio-8282-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-04T14:36:49.840+05:00  INFO 12396 --- [smartcontactmanager] [http-nio-8282-exec-2] com.smart.controller.HomeController      : Accessed home page
+2024-08-04T14:36:49.905+05:00  WARN 12396 --- [smartcontactmanager] [http-nio-8282-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-2][home] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template home, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T14:36:50.119+05:00  INFO 12396 --- [smartcontactmanager] [http-nio-8282-exec-5] com.smart.controller.HomeController      : Accessed login page
+2024-08-04T14:36:50.144+05:00  WARN 12396 --- [smartcontactmanager] [http-nio-8282-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-5][signin] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template signin, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T14:36:50.683+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:36:50.868+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:36:52.805+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:36:52.861+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:36:52.864+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:36:53.083+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:36:53.085+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4062 ms
+2024-08-04T14:36:53.502+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:36:53.714+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-04T14:36:53.868+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:36:54.811+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:36:54.928+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-04T14:36:55.657+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c5b1d04
+2024-08-04T14:36:55.667+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-04T14:36:55.781+05:00  WARN 14624 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:36:55.786+05:00  WARN 14624 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:36:58.673+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:36:58.819+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:36:59.418+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-04T14:37:00.759+05:00  WARN 14624 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:37:00.852+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:37:00.855+05:00  WARN 14624 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:37:01.867+05:00  WARN 14624 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-04T14:37:01.917+05:00  WARN 14624 --- [smartcontactmanager] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-04T14:37:01.920+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:37:01.924+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-04T14:37:01.938+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-04T14:37:01.958+05:00  INFO 14624 --- [smartcontactmanager] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-04T14:37:01.990+05:00 ERROR 14624 --- [smartcontactmanager] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8282 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8282 or configure this application to listen on another port.
+
+2024-08-04T14:37:22.473+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 15868 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:37:22.476+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:37:22.561+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-04T14:37:22.561+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-04T14:37:23.837+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:37:23.937+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:37:25.003+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:37:25.035+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:37:25.036+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:37:25.130+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:37:25.131+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2569 ms
+2024-08-04T14:37:25.341+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:37:25.429+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-04T14:37:25.499+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:37:26.161+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:37:26.246+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-04T14:37:26.798+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@629a794c
+2024-08-04T14:37:26.804+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-04T14:37:26.901+05:00  WARN 15868 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:37:26.903+05:00  WARN 15868 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:37:28.532+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:37:28.649+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:37:29.013+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-04T14:37:29.817+05:00  WARN 15868 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:37:29.880+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:37:29.882+05:00  WARN 15868 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:37:30.741+05:00  WARN 15868 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-04T14:37:30.778+05:00  WARN 15868 --- [smartcontactmanager] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-04T14:37:30.782+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:37:30.786+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-04T14:37:30.802+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-04T14:37:30.824+05:00  INFO 15868 --- [smartcontactmanager] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-04T14:37:30.866+05:00 ERROR 15868 --- [smartcontactmanager] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8282 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8282 or configure this application to listen on another port.
+
+2024-08-04T14:41:24.465+05:00  INFO 12396 --- [smartcontactmanager] [RMI TCP Connection(40)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-04T14:41:24.515+05:00  INFO 12396 --- [smartcontactmanager] [RMI TCP Connection(40)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:41:24.517+05:00  INFO 12396 --- [smartcontactmanager] [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-08-04T14:41:24.540+05:00  INFO 12396 --- [smartcontactmanager] [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-08-04T14:41:28.988+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 20476 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:41:28.992+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:41:29.091+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-04T14:41:29.091+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-04T14:41:30.287+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:41:30.451+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:41:32.187+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:41:32.221+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:41:32.222+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:41:32.366+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:41:32.367+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3275 ms
+2024-08-04T14:41:32.701+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:41:32.841+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-04T14:41:32.938+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:41:33.596+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:41:33.653+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-04T14:41:34.408+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c39553a
+2024-08-04T14:41:34.414+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-04T14:41:34.502+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:41:34.503+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:41:35.358+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 7128 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:41:35.362+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:41:35.465+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-04T14:41:35.465+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-04T14:41:36.732+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:41:36.860+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:41:36.860+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:41:37.042+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:41:37.481+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-04T14:41:38.033+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:41:38.055+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:41:38.056+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:41:38.150+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:41:38.152+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2682 ms
+2024-08-04T14:41:38.488+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:41:38.564+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:41:38.606+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-04T14:41:38.624+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:41:38.627+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:41:38.691+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:41:39.358+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:41:39.408+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-04T14:41:39.727+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-04T14:41:39.802+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8282 (http) with context path '/'
+2024-08-04T14:41:39.819+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 11.66 seconds (process running for 13.242)
+2024-08-04T14:41:40.161+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31b93adf
+2024-08-04T14:41:40.169+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-04T14:41:40.324+05:00  WARN 7128 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:41:40.326+05:00  WARN 7128 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:41:42.299+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:41:42.597+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:41:43.132+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-04T14:41:44.084+05:00  WARN 7128 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:41:44.142+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:41:44.144+05:00  WARN 7128 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:41:45.308+05:00  WARN 7128 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-04T14:41:45.387+05:00  WARN 7128 --- [smartcontactmanager] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-04T14:41:45.396+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:41:45.406+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-04T14:41:45.438+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-04T14:41:45.479+05:00  INFO 7128 --- [smartcontactmanager] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-04T14:41:45.550+05:00 ERROR 7128 --- [smartcontactmanager] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8282 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8282 or configure this application to listen on another port.
+
+2024-08-04T14:43:09.319+05:00  INFO 20476 --- [smartcontactmanager] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-08-04T14:43:09.385+05:00  INFO 20476 --- [smartcontactmanager] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:43:09.394+05:00  INFO 20476 --- [smartcontactmanager] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-04T14:43:09.412+05:00  INFO 20476 --- [smartcontactmanager] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-04T14:43:09.601+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 20476 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:43:09.601+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:43:09.922+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:43:09.946+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:43:10.403+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:43:10.407+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:43:10.408+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:43:10.465+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:43:10.466+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 861 ms
+2024-08-04T14:43:10.527+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:43:10.531+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:43:10.543+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:43:10.545+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-04T14:43:10.580+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@512f6b7d
+2024-08-04T14:43:10.583+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-04T14:43:10.585+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:43:10.586+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:43:10.872+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:43:10.937+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:43:11.099+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:43:11.111+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:43:11.113+05:00  WARN 20476 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:43:11.338+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-04T14:43:11.357+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8282 (http) with context path '/'
+2024-08-04T14:43:11.364+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 1.825 seconds (process running for 104.786)
+2024-08-04T14:43:11.367+05:00  INFO 20476 --- [smartcontactmanager] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-04T14:43:19.333+05:00  INFO 20476 --- [smartcontactmanager] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-04T14:43:19.366+05:00  INFO 20476 --- [smartcontactmanager] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:43:19.368+05:00  INFO 20476 --- [smartcontactmanager] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-04T14:43:19.389+05:00  INFO 20476 --- [smartcontactmanager] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-04T14:43:24.918+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 11712 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T14:43:24.921+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T14:43:25.011+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-04T14:43:25.012+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-04T14:43:26.168+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T14:43:26.291+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 2 JPA repository interfaces.
+2024-08-04T14:43:27.638+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T14:43:27.662+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T14:43:27.662+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T14:43:27.746+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-04T14:43:27.747+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2733 ms
+2024-08-04T14:43:27.973+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T14:43:28.117+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-04T14:43:28.212+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T14:43:28.706+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T14:43:28.754+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-04T14:43:29.211+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6be86895
+2024-08-04T14:43:29.214+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-04T14:43:29.294+05:00  WARN 11712 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T14:43:29.296+05:00  WARN 11712 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T14:43:31.380+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T14:43:31.637+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:43:32.454+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-04T14:43:34.155+05:00  WARN 11712 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T14:43:34.255+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T14:43:34.258+05:00  WARN 11712 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T14:43:35.761+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-04T14:43:35.901+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8282 (http) with context path '/'
+2024-08-04T14:43:35.932+05:00  INFO 11712 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 12.073 seconds (process running for 13.577)
+2024-08-04T14:43:48.049+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-04T14:43:48.049+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-04T14:43:48.052+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-04T14:43:48.134+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-1] com.smart.controller.HomeController      : Accessed home page
+2024-08-04T14:43:48.497+05:00  WARN 11712 --- [smartcontactmanager] [http-nio-8282-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-1][home] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template home, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T14:43:48.988+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-5] com.smart.controller.HomeController      : Accessed login page
+2024-08-04T14:43:49.004+05:00  WARN 11712 --- [smartcontactmanager] [http-nio-8282-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-5][signin] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template signin, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T14:43:50.932+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-6] com.smart.controller.HomeController      : Accessed login page
+2024-08-04T14:43:50.987+05:00  WARN 11712 --- [smartcontactmanager] [http-nio-8282-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-6][signin] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template signin, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T14:43:54.989+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-10] com.smart.controller.UserController      : Fetching user details for: naveedzafar@gmail.com
+2024-08-04T14:43:55.028+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-10] com.smart.controller.UserController      : Accessed user dashboard
+2024-08-04T14:43:56.417+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-4] com.smart.controller.UserController      : Fetching user details for: naveedzafar@gmail.com
+2024-08-04T14:43:57.580+05:00  INFO 11712 --- [smartcontactmanager] [http-nio-8282-exec-7] com.smart.controller.UserController      : Fetching user details for: naveedzafar@gmail.com
+2024-08-04T14:44:23.821+05:00  INFO 11712 --- [smartcontactmanager] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-04T14:44:23.833+05:00  INFO 11712 --- [smartcontactmanager] [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T14:44:23.838+05:00  INFO 11712 --- [smartcontactmanager] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-04T14:44:23.849+05:00  INFO 11712 --- [smartcontactmanager] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-04T15:38:15.295+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 21.0.3 with PID 5432 (C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b\target\classes started by HP in C:\Users\HP\Desktop\Smart-Contact-Manager-SpringBoot-Thymeleaf-7aaaaf611e8c25dc90263ed5331970c95bc1704b)
+2024-08-04T15:38:15.299+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T15:38:15.412+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-04T15:38:15.413+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-04T15:38:16.807+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-04T15:38:16.909+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 2 JPA repository interfaces.
+2024-08-04T15:38:18.223+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8282 (http)
+2024-08-04T15:38:18.247+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-04T15:38:18.248+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-04T15:38:18.361+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-04T15:38:18.361+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2947 ms
+2024-08-04T15:38:18.501+05:00  WARN 5432 --- [smartcontactmanager] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [714D2BBEEE6B04F3F146C90EC7794AE2]
+2024-08-04T15:38:18.698+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-04T15:38:18.822+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-04T15:38:18.890+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-04T15:38:19.483+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-04T15:38:19.541+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-04T15:38:20.119+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71126d86
+2024-08-04T15:38:20.123+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-04T15:38:20.264+05:00  WARN 5432 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-04T15:38:20.267+05:00  WARN 5432 --- [smartcontactmanager] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-04T15:38:22.626+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-04T15:38:22.749+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T15:38:23.093+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-04T15:38:23.800+05:00  WARN 5432 --- [smartcontactmanager] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-04T15:38:23.852+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-08-04T15:38:23.854+05:00  WARN 5432 --- [smartcontactmanager] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-08-04T15:38:24.795+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-04T15:38:24.871+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8282 (http) with context path '/'
+2024-08-04T15:38:24.886+05:00  INFO 5432 --- [smartcontactmanager] [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 10.277 seconds (process running for 11.675)
+2024-08-04T15:38:31.658+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-04T15:38:31.658+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-04T15:38:31.661+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-04T15:38:31.725+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-1] com.smart.controller.HomeController      : Accessed home page
+2024-08-04T15:38:32.088+05:00  WARN 5432 --- [smartcontactmanager] [http-nio-8282-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-1][home] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template home, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T15:38:32.351+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-5] com.smart.controller.HomeController      : Accessed login page
+2024-08-04T15:38:32.366+05:00  WARN 5432 --- [smartcontactmanager] [http-nio-8282-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-5][signin] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template signin, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T15:38:32.406+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-6] com.smart.controller.HomeController      : Accessed login page
+2024-08-04T15:38:32.412+05:00  WARN 5432 --- [smartcontactmanager] [http-nio-8282-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-6][signin] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template signin, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T15:38:33.750+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-9] com.smart.controller.HomeController      : Accessed login page
+2024-08-04T15:38:33.762+05:00  WARN 5432 --- [smartcontactmanager] [http-nio-8282-exec-9] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-9][signin] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template signin, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T15:38:33.866+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-3] com.smart.controller.HomeController      : Accessed login page
+2024-08-04T15:38:33.872+05:00  WARN 5432 --- [smartcontactmanager] [http-nio-8282-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8282-exec-3][signin] Deprecated unwrapped fragment expression "base::layout(~{::section})" found in template signin, line 2, col 54. Please use the complete syntax of fragment expressions instead ("~{base::layout(~{::section})}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-08-04T15:38:37.153+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-4] com.smart.controller.UserController      : Fetching user details for: naveedzafar@gmail.com
+2024-08-04T15:38:37.186+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-4] com.smart.controller.UserController      : Accessed user dashboard
+2024-08-04T15:38:38.973+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-9] com.smart.controller.UserController      : Fetching user details for: naveedzafar@gmail.com
+2024-08-04T15:43:18.251+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-5] com.smart.controller.UserController      : Fetching user details for: naveedzafar@gmail.com
+2024-08-04T16:09:29.401+05:00  INFO 5432 --- [smartcontactmanager] [http-nio-8282-exec-10] com.smart.controller.UserController      : Fetching user details for: naveedzafar@gmail.com
+2024-08-04T16:17:39.029+05:00  INFO 5432 --- [smartcontactmanager] [RMI TCP Connection(44)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-04T16:17:39.046+05:00  INFO 5432 --- [smartcontactmanager] [RMI TCP Connection(44)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-04T16:17:39.052+05:00  INFO 5432 --- [smartcontactmanager] [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-04T16:17:39.067+05:00  INFO 5432 --- [smartcontactmanager] [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
